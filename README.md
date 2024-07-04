@@ -8,7 +8,7 @@ To compile/run the iOS application:
 * open the Xcode Project "Personal Finance Manager.xcodeproj"
 * Run by pressing "Play" or by pressing [Cmd + R]
 
-[![Watch the video](https://i9.ytimg.com/vi/wnwfeUlQCdg/mq2.jpg?sqp=CITpmLQG-oaymwEmCMACELQB8quKqQMa8AEB-AGUBoAC0AWKAgwIABABGEkgVyhlMA8=&rs=AOn4CLA0udetMXurTpyTUwzelXa7uy6xnQ)]([https://youtu.be/T-D1KVIuvjA](https://www.youtube.com/watch?v=wnwfeUlQCdg))
+[![Watch the video](https://i9.ytimg.com/vi/wnwfeUlQCdg/mq2.jpg?sqp=CITpmLQG-oaymwEmCMACELQB8quKqQMa8AEB-AGUBoAC0AWKAgwIABABGEkgVyhlMA8=&rs=AOn4CLA0udetMXurTpyTUwzelXa7uy6xnQ)](https://www.youtube.com/watch?v=wnwfeUlQCdg)
 
 ## OverView
 
