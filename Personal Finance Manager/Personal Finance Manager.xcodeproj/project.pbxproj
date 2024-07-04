@@ -1,0 +1,1118 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0403752C3598B2001FE491 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0403742C3598B2001FE491 /* AmountView.swift */; };
+		0A04037C2C35A18A001FE491 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04037B2C35A18A001FE491 /* CoreDataService.swift */; };
+		0A04037F2C35A2A5001FE491 /* TransactionsCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A04037D2C35A2A5001FE491 /* TransactionsCoreData.xcdatamodeld */; };
+		0A7BD4952C3002FD00B38357 /* CommonBackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4942C3002FD00B38357 /* CommonBackGroundView.swift */; };
+		0A7BD49A2C3006D500B38357 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4992C3006D500B38357 /* AppColors.swift */; };
+		0A7BD49E2C3008B900B38357 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD49D2C3008B900B38357 /* UIView+Gradient.swift */; };
+		0A7BD4A02C30110500B38357 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD49F2C30110500B38357 /* LoginView.swift */; };
+		0A7BD4A22C301FC000B38357 /* BlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4A12C301FC000B38357 /* BlurEffectView.swift */; };
+		0A7BD4A42C30225700B38357 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4A32C30225700B38357 /* UITextField+Extensions.swift */; };
+		0A7BD4A72C3025AD00B38357 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4A62C3025AD00B38357 /* SignUpView.swift */; };
+		0A7BD4AA2C30B4ED00B38357 /* LoginViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4A92C30B4ED00B38357 /* LoginViewProtocol.swift */; };
+		0A7BD4AD2C30BD2200B38357 /* LoginSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4AC2C30BD2200B38357 /* LoginSignupViewModel.swift */; };
+		0A7BD4B22C30C6EE00B38357 /* TransactionManagerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4B12C30C6EE00B38357 /* TransactionManagerHomeViewController.swift */; };
+		0A7BD4B52C30C99900B38357 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4B42C30C99900B38357 /* Coordinator.swift */; };
+		0A7BD4BC2C30D20100B38357 /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4BB2C30D20100B38357 /* TransactionListViewController.swift */; };
+		0A7BD4C22C30D82200B38357 /* TransactionManagerHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4C12C30D82200B38357 /* TransactionManagerHomeViewModel.swift */; };
+		0A7BD4C52C30D9E400B38357 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4C42C30D9E400B38357 /* FirestoreManager.swift */; };
+		0A7BD4C82C30E74C00B38357 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4C72C30E74C00B38357 /* TransactionModel.swift */; };
+		0A7BD4CF2C310F0A00B38357 /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4CE2C310F0A00B38357 /* TransactionType.swift */; };
+		0A7BD4D12C311FA700B38357 /* TransactionsEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD4D02C311FA700B38357 /* TransactionsEntryView.swift */; };
+		0A86A16B2C2D2CD20094AD4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A16A2C2D2CD20094AD4B /* AppDelegate.swift */; };
+		0A86A16D2C2D2CD20094AD4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A16C2C2D2CD20094AD4B /* SceneDelegate.swift */; };
+		0A86A16F2C2D2CD20094AD4B /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A16E2C2D2CD20094AD4B /* LoginSignupViewController.swift */; };
+		0A86A1742C2D2CD20094AD4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A86A1732C2D2CD20094AD4B /* Assets.xcassets */; };
+		0A86A1772C2D2CD20094AD4B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0A86A1762C2D2CD20094AD4B /* Base */; };
+		0A86A1822C2D2CD30094AD4B /* Personal_Finance_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A1812C2D2CD30094AD4B /* Personal_Finance_ManagerTests.swift */; };
+		0A86A18C2C2D2CD30094AD4B /* Personal_Finance_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A18B2C2D2CD30094AD4B /* Personal_Finance_ManagerUITests.swift */; };
+		0A86A18E2C2D2CD30094AD4B /* Personal_Finance_ManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A18D2C2D2CD30094AD4B /* Personal_Finance_ManagerUITestsLaunchTests.swift */; };
+		0A86A19B2C2D30A60094AD4B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A86A19A2C2D30A60094AD4B /* GoogleService-Info.plist */; };
+		0A86A1AC2C2D41620094AD4B /* ResolutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A1AB2C2D41620094AD4B /* ResolutionManager.swift */; };
+		0A86A1B12C2D41A10094AD4B /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A1AD2C2D41A10094AD4B /* CGFloat+Extensions.swift */; };
+		0A86A1B22C2D41A10094AD4B /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A1AE2C2D41A10094AD4B /* UIColor+Extensions.swift */; };
+		0A86A1B32C2D41A10094AD4B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A1AF2C2D41A10094AD4B /* UIView+Extensions.swift */; };
+		0A86A1B62C2D4D190094AD4B /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86A1B52C2D4D190094AD4B /* AuthManager.swift */; };
+		0A94FC042C35BA73006653B7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0A94FC032C35BA73006653B7 /* FirebaseAuth */; };
+		0A94FC062C35BA7B006653B7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0A94FC052C35BA7B006653B7 /* FirebaseFirestore */; };
+		0A94FC082C35BA80006653B7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0A94FC072C35BA80006653B7 /* FirebaseDatabase */; };
+		0A94FC0A2C35BA93006653B7 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 0A94FC092C35BA93006653B7 /* DGCharts */; };
+		0A94FC112C35BBD4006653B7 /* Transactions+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94FC0F2C35BBD4006653B7 /* Transactions+CoreDataClass.swift */; };
+		0A94FC122C35BBD4006653B7 /* Transactions+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94FC102C35BBD4006653B7 /* Transactions+CoreDataProperties.swift */; };
+		0A94FC142C35BCE1006653B7 /* LocalCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94FC132C35BCE1006653B7 /* LocalCacheManager.swift */; };
+		0A94FC172C35E9A7006653B7 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94FC162C35E9A7006653B7 /* UIViewController+Extension.swift */; };
+		0A94FC192C35EAED006653B7 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94FC182C35EAED006653B7 /* AlertPresenter.swift */; };
+		0A94FC1F2C3606C3006653B7 /* UIView+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94FC1E2C3606C3006653B7 /* UIView+ActivityIndicator.swift */; };
+		0A94FC222C360F66006653B7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94FC212C360F66006653B7 /* NotificationService.swift */; };
+		0A94FC242C3618C0006653B7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94FC232C3618C0006653B7 /* String+Extension.swift */; };
+		0AC440142C33DD8E00E6CDB7 /* TransactionsEntryViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC440132C33DD8E00E6CDB7 /* TransactionsEntryViewProtocol.swift */; };
+		0AC440172C3495AC00E6CDB7 /* TransactionListSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC440162C3495AC00E6CDB7 /* TransactionListSectionType.swift */; };
+		0AC4401C2C34962000E6CDB7 /* TransactionListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4401B2C34962000E6CDB7 /* TransactionListSection.swift */; };
+		0AC4401F2C34971800E6CDB7 /* CollectionViewLayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4401E2C34971800E6CDB7 /* CollectionViewLayoutBuilder.swift */; };
+		0AC440222C34988200E6CDB7 /* TransactionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC440212C34988200E6CDB7 /* TransactionCollectionViewCell.swift */; };
+		0AC440242C34AE1A00E6CDB7 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC440232C34AE1A00E6CDB7 /* PaddingLabel.swift */; };
+		0AC440262C34C0BF00E6CDB7 /* TransactionCollectionViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC440252C34C0BF00E6CDB7 /* TransactionCollectionViewCellProtocol.swift */; };
+		0AC440282C34DA1D00E6CDB7 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC440272C34DA1D00E6CDB7 /* Date+Extensions.swift */; };
+		0AC4402A2C34F0B000E6CDB7 /* SegmentAndFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC440292C34F0B000E6CDB7 /* SegmentAndFilterView.swift */; };
+		0AC4402C2C3505DE00E6CDB7 /* SegmentAndFilterViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4402B2C3505DE00E6CDB7 /* SegmentAndFilterViewProtocol.swift */; };
+		0AC4402E2C350F9A00E6CDB7 /* FilterOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4402D2C350F9A00E6CDB7 /* FilterOptionsView.swift */; };
+		0AC440302C35176E00E6CDB7 /* FilterOptionsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4402F2C35176E00E6CDB7 /* FilterOptionsViewProtocol.swift */; };
+		0AC440322C351A5400E6CDB7 /* TransactionFilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC440312C351A5400E6CDB7 /* TransactionFilterModel.swift */; };
+		0AC440342C353DC600E6CDB7 /* TransactionChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC440332C353DC600E6CDB7 /* TransactionChartsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A86A17E2C2D2CD30094AD4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A86A15F2C2D2CD20094AD4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A86A1662C2D2CD20094AD4B;
+			remoteInfo = "Personal Finance Manager";
+		};
+		0A86A1882C2D2CD30094AD4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A86A15F2C2D2CD20094AD4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A86A1662C2D2CD20094AD4B;
+			remoteInfo = "Personal Finance Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0403742C3598B2001FE491 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
+		0A04037B2C35A18A001FE491 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		0A04037E2C35A2A5001FE491 /* TransactionsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TransactionsCoreData.xcdatamodel; sourceTree = "<group>"; };
+		0A7BD4942C3002FD00B38357 /* CommonBackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonBackGroundView.swift; sourceTree = "<group>"; };
+		0A7BD4992C3006D500B38357 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		0A7BD49D2C3008B900B38357 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
+		0A7BD49F2C30110500B38357 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0A7BD4A12C301FC000B38357 /* BlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectView.swift; sourceTree = "<group>"; };
+		0A7BD4A32C30225700B38357 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		0A7BD4A62C3025AD00B38357 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		0A7BD4A92C30B4ED00B38357 /* LoginViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewProtocol.swift; sourceTree = "<group>"; };
+		0A7BD4AC2C30BD2200B38357 /* LoginSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewModel.swift; sourceTree = "<group>"; };
+		0A7BD4B12C30C6EE00B38357 /* TransactionManagerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionManagerHomeViewController.swift; sourceTree = "<group>"; };
+		0A7BD4B42C30C99900B38357 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		0A7BD4BB2C30D20100B38357 /* TransactionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewController.swift; sourceTree = "<group>"; };
+		0A7BD4C12C30D82200B38357 /* TransactionManagerHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionManagerHomeViewModel.swift; sourceTree = "<group>"; };
+		0A7BD4C42C30D9E400B38357 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		0A7BD4C72C30E74C00B38357 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		0A7BD4CE2C310F0A00B38357 /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		0A7BD4D02C311FA700B38357 /* TransactionsEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsEntryView.swift; sourceTree = "<group>"; };
+		0A86A1672C2D2CD20094AD4B /* Personal Finance Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Finance Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A86A16A2C2D2CD20094AD4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A86A16C2C2D2CD20094AD4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A86A16E2C2D2CD20094AD4B /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
+		0A86A1732C2D2CD20094AD4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A86A1762C2D2CD20094AD4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A86A1782C2D2CD20094AD4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A86A17D2C2D2CD30094AD4B /* Personal Finance ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal Finance ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A86A1812C2D2CD30094AD4B /* Personal_Finance_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_Finance_ManagerTests.swift; sourceTree = "<group>"; };
+		0A86A1872C2D2CD30094AD4B /* Personal Finance ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal Finance ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A86A18B2C2D2CD30094AD4B /* Personal_Finance_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_Finance_ManagerUITests.swift; sourceTree = "<group>"; };
+		0A86A18D2C2D2CD30094AD4B /* Personal_Finance_ManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_Finance_ManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A86A19A2C2D30A60094AD4B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A86A1AB2C2D41620094AD4B /* ResolutionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolutionManager.swift; sourceTree = "<group>"; };
+		0A86A1AD2C2D41A10094AD4B /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		0A86A1AE2C2D41A10094AD4B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		0A86A1AF2C2D41A10094AD4B /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		0A86A1B52C2D4D190094AD4B /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		0A94FC0F2C35BBD4006653B7 /* Transactions+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transactions+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0A94FC102C35BBD4006653B7 /* Transactions+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transactions+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0A94FC132C35BCE1006653B7 /* LocalCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCacheManager.swift; sourceTree = "<group>"; };
+		0A94FC152C35DFED006653B7 /* Personal Finance Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Personal Finance Manager.entitlements"; sourceTree = "<group>"; };
+		0A94FC162C35E9A7006653B7 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0A94FC182C35EAED006653B7 /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		0A94FC1E2C3606C3006653B7 /* UIView+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicator.swift"; sourceTree = "<group>"; };
+		0A94FC212C360F66006653B7 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		0A94FC232C3618C0006653B7 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0AC440132C33DD8E00E6CDB7 /* TransactionsEntryViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsEntryViewProtocol.swift; sourceTree = "<group>"; };
+		0AC440162C3495AC00E6CDB7 /* TransactionListSectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListSectionType.swift; sourceTree = "<group>"; };
+		0AC4401B2C34962000E6CDB7 /* TransactionListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListSection.swift; sourceTree = "<group>"; };
+		0AC4401E2C34971800E6CDB7 /* CollectionViewLayoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutBuilder.swift; sourceTree = "<group>"; };
+		0AC440212C34988200E6CDB7 /* TransactionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCollectionViewCell.swift; sourceTree = "<group>"; };
+		0AC440232C34AE1A00E6CDB7 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		0AC440252C34C0BF00E6CDB7 /* TransactionCollectionViewCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCollectionViewCellProtocol.swift; sourceTree = "<group>"; };
+		0AC440272C34DA1D00E6CDB7 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		0AC440292C34F0B000E6CDB7 /* SegmentAndFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentAndFilterView.swift; sourceTree = "<group>"; };
+		0AC4402B2C3505DE00E6CDB7 /* SegmentAndFilterViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentAndFilterViewProtocol.swift; sourceTree = "<group>"; };
+		0AC4402D2C350F9A00E6CDB7 /* FilterOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOptionsView.swift; sourceTree = "<group>"; };
+		0AC4402F2C35176E00E6CDB7 /* FilterOptionsViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOptionsViewProtocol.swift; sourceTree = "<group>"; };
+		0AC440312C351A5400E6CDB7 /* TransactionFilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFilterModel.swift; sourceTree = "<group>"; };
+		0AC440332C353DC600E6CDB7 /* TransactionChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionChartsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A86A1642C2D2CD20094AD4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A94FC0A2C35BA93006653B7 /* DGCharts in Frameworks */,
+				0A94FC082C35BA80006653B7 /* FirebaseDatabase in Frameworks */,
+				0A94FC042C35BA73006653B7 /* FirebaseAuth in Frameworks */,
+				0A94FC062C35BA7B006653B7 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A86A17A2C2D2CD30094AD4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A86A1842C2D2CD30094AD4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A04036B2C3559EC001FE491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A0403762C35A03F001FE491 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A04037D2C35A2A5001FE491 /* TransactionsCoreData.xcdatamodeld */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		0A04037A2C35A17E001FE491 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0A0403802C35A3A6001FE491 /* ManageObjecsSubClass */,
+				0A0403762C35A03F001FE491 /* CoreDataModel */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0A0403802C35A3A6001FE491 /* ManageObjecsSubClass */ = {
+			isa = PBXGroup;
+			children = (
+				0A94FC0F2C35BBD4006653B7 /* Transactions+CoreDataClass.swift */,
+				0A94FC102C35BBD4006653B7 /* Transactions+CoreDataProperties.swift */,
+			);
+			path = ManageObjecsSubClass;
+			sourceTree = "<group>";
+		};
+		0A7BD4922C3002DF00B38357 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4CD2C310EEA00B38357 /* Enum */,
+				0A7BD4B32C30C96100B38357 /* Protocol */,
+				0A7BD4932C3002E900B38357 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0A7BD4932C3002E900B38357 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4942C3002FD00B38357 /* CommonBackGroundView.swift */,
+				0A7BD4A12C301FC000B38357 /* BlurEffectView.swift */,
+				0AC440232C34AE1A00E6CDB7 /* PaddingLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A7BD4982C3006B300B38357 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4992C3006D500B38357 /* AppColors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0A7BD4A82C30B4D600B38357 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4A92C30B4ED00B38357 /* LoginViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0A7BD4AB2C30BC3A00B38357 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4AC2C30BD2200B38357 /* LoginSignupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A7BD4AE2C30C6B700B38357 /* TransactionManager */ = {
+			isa = PBXGroup;
+			children = (
+				0AC440152C34958400E6CDB7 /* Enum */,
+				0A7BD4C62C30E71200B38357 /* Model */,
+				0AC440122C33DD6900E6CDB7 /* Protocol */,
+				0A7BD4AF2C30C6C700B38357 /* View */,
+				0A7BD4C02C30D80C00B38357 /* ViewModel */,
+			);
+			path = TransactionManager;
+			sourceTree = "<group>";
+		};
+		0A7BD4AF2C30C6C700B38357 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A0403742C3598B2001FE491 /* AmountView.swift */,
+				0AC4402D2C350F9A00E6CDB7 /* FilterOptionsView.swift */,
+				0AC440292C34F0B000E6CDB7 /* SegmentAndFilterView.swift */,
+				0AC440332C353DC600E6CDB7 /* TransactionChartsView.swift */,
+				0A7BD4D02C311FA700B38357 /* TransactionsEntryView.swift */,
+				0AC440202C34985100E6CDB7 /* CollectionCell */,
+				0AC4401D2C3496EF00E6CDB7 /* LayoutBuilder */,
+				0A7BD4BD2C30D20900B38357 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A7BD4B32C30C96100B38357 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4B42C30C99900B38357 /* Coordinator.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0A7BD4BD2C30D20900B38357 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4BB2C30D20100B38357 /* TransactionListViewController.swift */,
+				0A7BD4B12C30C6EE00B38357 /* TransactionManagerHomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0A7BD4C02C30D80C00B38357 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4C12C30D82200B38357 /* TransactionManagerHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A7BD4C32C30D9BF00B38357 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				0A86A1B52C2D4D190094AD4B /* AuthManager.swift */,
+				0A7BD4C42C30D9E400B38357 /* FirestoreManager.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		0A7BD4C62C30E71200B38357 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AC440192C3495F800E6CDB7 /* Structure */,
+				0A7BD4C72C30E74C00B38357 /* TransactionModel.swift */,
+				0AC440312C351A5400E6CDB7 /* TransactionFilterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A7BD4CD2C310EEA00B38357 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4CE2C310F0A00B38357 /* TransactionType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		0A86A15E2C2D2CD20094AD4B = {
+			isa = PBXGroup;
+			children = (
+				0A86A1692C2D2CD20094AD4B /* Personal Finance Manager */,
+				0A86A1802C2D2CD30094AD4B /* Personal Finance ManagerTests */,
+				0A86A18A2C2D2CD30094AD4B /* Personal Finance ManagerUITests */,
+				0A86A1682C2D2CD20094AD4B /* Products */,
+				5398AC138CB28A549BEE34BF /* Pods */,
+				0A04036B2C3559EC001FE491 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A86A1682C2D2CD20094AD4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A86A1672C2D2CD20094AD4B /* Personal Finance Manager.app */,
+				0A86A17D2C2D2CD30094AD4B /* Personal Finance ManagerTests.xctest */,
+				0A86A1872C2D2CD30094AD4B /* Personal Finance ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A86A1692C2D2CD20094AD4B /* Personal Finance Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0A94FC152C35DFED006653B7 /* Personal Finance Manager.entitlements */,
+				0A86A19A2C2D30A60094AD4B /* GoogleService-Info.plist */,
+				0A86A1782C2D2CD20094AD4B /* Info.plist */,
+				0A7BD4C32C30D9BF00B38357 /* ApiManager */,
+				0A7BD4922C3002DF00B38357 /* Common */,
+				0A7BD4982C3006B300B38357 /* Constants */,
+				0A86A1A62C2D3FA40094AD4B /* Features */,
+				0A86A1A52C2D3F030094AD4B /* Resources */,
+				0A86A1B42C2D4CEF0094AD4B /* Services */,
+				0A86A1AA2C2D41460094AD4B /* Utility */,
+			);
+			path = "Personal Finance Manager";
+			sourceTree = "<group>";
+		};
+		0A86A1802C2D2CD30094AD4B /* Personal Finance ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A86A1812C2D2CD30094AD4B /* Personal_Finance_ManagerTests.swift */,
+			);
+			path = "Personal Finance ManagerTests";
+			sourceTree = "<group>";
+		};
+		0A86A18A2C2D2CD30094AD4B /* Personal Finance ManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A86A18B2C2D2CD30094AD4B /* Personal_Finance_ManagerUITests.swift */,
+				0A86A18D2C2D2CD30094AD4B /* Personal_Finance_ManagerUITestsLaunchTests.swift */,
+			);
+			path = "Personal Finance ManagerUITests";
+			sourceTree = "<group>";
+		};
+		0A86A1A52C2D3F030094AD4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A04037A2C35A17E001FE491 /* CoreData */,
+				0A86A1752C2D2CD20094AD4B /* LaunchScreen.storyboard */,
+				0A86A16C2C2D2CD20094AD4B /* SceneDelegate.swift */,
+				0A86A16A2C2D2CD20094AD4B /* AppDelegate.swift */,
+				0A86A1732C2D2CD20094AD4B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A86A1A62C2D3FA40094AD4B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4AE2C30C6B700B38357 /* TransactionManager */,
+				0A86A1A92C2D40B80094AD4B /* LoginSignup */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		0A86A1A72C2D3FBD0094AD4B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A86A16E2C2D2CD20094AD4B /* LoginSignupViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0A86A1A82C2D3FC30094AD4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD49F2C30110500B38357 /* LoginView.swift */,
+				0A7BD4A62C3025AD00B38357 /* SignUpView.swift */,
+				0A86A1A72C2D3FBD0094AD4B /* ViewControllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A86A1A92C2D40B80094AD4B /* LoginSignup */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD4A82C30B4D600B38357 /* Protocol */,
+				0A86A1A82C2D3FC30094AD4B /* View */,
+				0A7BD4AB2C30BC3A00B38357 /* ViewModel */,
+			);
+			path = LoginSignup;
+			sourceTree = "<group>";
+		};
+		0A86A1AA2C2D41460094AD4B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0A86A1B02C2D41A10094AD4B /* Extensions */,
+				0A86A1AB2C2D41620094AD4B /* ResolutionManager.swift */,
+				0A94FC182C35EAED006653B7 /* AlertPresenter.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0A86A1B02C2D41A10094AD4B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A86A1AD2C2D41A10094AD4B /* CGFloat+Extensions.swift */,
+				0A86A1AE2C2D41A10094AD4B /* UIColor+Extensions.swift */,
+				0A86A1AF2C2D41A10094AD4B /* UIView+Extensions.swift */,
+				0A7BD49D2C3008B900B38357 /* UIView+Gradient.swift */,
+				0A7BD4A32C30225700B38357 /* UITextField+Extensions.swift */,
+				0AC440272C34DA1D00E6CDB7 /* Date+Extensions.swift */,
+				0A94FC162C35E9A7006653B7 /* UIViewController+Extension.swift */,
+				0A94FC1E2C3606C3006653B7 /* UIView+ActivityIndicator.swift */,
+				0A94FC232C3618C0006653B7 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A86A1B42C2D4CEF0094AD4B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0A04037B2C35A18A001FE491 /* CoreDataService.swift */,
+				0A94FC132C35BCE1006653B7 /* LocalCacheManager.swift */,
+				0A94FC212C360F66006653B7 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0AC440122C33DD6900E6CDB7 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0AC440132C33DD8E00E6CDB7 /* TransactionsEntryViewProtocol.swift */,
+				0AC440252C34C0BF00E6CDB7 /* TransactionCollectionViewCellProtocol.swift */,
+				0AC4402B2C3505DE00E6CDB7 /* SegmentAndFilterViewProtocol.swift */,
+				0AC4402F2C35176E00E6CDB7 /* FilterOptionsViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0AC440152C34958400E6CDB7 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				0AC440162C3495AC00E6CDB7 /* TransactionListSectionType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		0AC440192C3495F800E6CDB7 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				0AC4401B2C34962000E6CDB7 /* TransactionListSection.swift */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		0AC4401D2C3496EF00E6CDB7 /* LayoutBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				0AC4401E2C34971800E6CDB7 /* CollectionViewLayoutBuilder.swift */,
+			);
+			path = LayoutBuilder;
+			sourceTree = "<group>";
+		};
+		0AC440202C34985100E6CDB7 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				0AC440212C34988200E6CDB7 /* TransactionCollectionViewCell.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		5398AC138CB28A549BEE34BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A86A1662C2D2CD20094AD4B /* Personal Finance Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A86A1912C2D2CD30094AD4B /* Build configuration list for PBXNativeTarget "Personal Finance Manager" */;
+			buildPhases = (
+				0A86A1632C2D2CD20094AD4B /* Sources */,
+				0A86A1642C2D2CD20094AD4B /* Frameworks */,
+				0A86A1652C2D2CD20094AD4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Personal Finance Manager";
+			packageProductDependencies = (
+				0A94FC032C35BA73006653B7 /* FirebaseAuth */,
+				0A94FC052C35BA7B006653B7 /* FirebaseFirestore */,
+				0A94FC072C35BA80006653B7 /* FirebaseDatabase */,
+				0A94FC092C35BA93006653B7 /* DGCharts */,
+			);
+			productName = "Personal Finance Manager";
+			productReference = 0A86A1672C2D2CD20094AD4B /* Personal Finance Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A86A17C2C2D2CD30094AD4B /* Personal Finance ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A86A1942C2D2CD30094AD4B /* Build configuration list for PBXNativeTarget "Personal Finance ManagerTests" */;
+			buildPhases = (
+				0A86A1792C2D2CD30094AD4B /* Sources */,
+				0A86A17A2C2D2CD30094AD4B /* Frameworks */,
+				0A86A17B2C2D2CD30094AD4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A86A17F2C2D2CD30094AD4B /* PBXTargetDependency */,
+			);
+			name = "Personal Finance ManagerTests";
+			productName = "Personal Finance ManagerTests";
+			productReference = 0A86A17D2C2D2CD30094AD4B /* Personal Finance ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A86A1862C2D2CD30094AD4B /* Personal Finance ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A86A1972C2D2CD30094AD4B /* Build configuration list for PBXNativeTarget "Personal Finance ManagerUITests" */;
+			buildPhases = (
+				0A86A1832C2D2CD30094AD4B /* Sources */,
+				0A86A1842C2D2CD30094AD4B /* Frameworks */,
+				0A86A1852C2D2CD30094AD4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A86A1892C2D2CD30094AD4B /* PBXTargetDependency */,
+			);
+			name = "Personal Finance ManagerUITests";
+			productName = "Personal Finance ManagerUITests";
+			productReference = 0A86A1872C2D2CD30094AD4B /* Personal Finance ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A86A15F2C2D2CD20094AD4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0A86A1662C2D2CD20094AD4B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0A86A17C2C2D2CD30094AD4B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0A86A1662C2D2CD20094AD4B;
+					};
+					0A86A1862C2D2CD30094AD4B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0A86A1662C2D2CD20094AD4B;
+					};
+				};
+			};
+			buildConfigurationList = 0A86A1622C2D2CD20094AD4B /* Build configuration list for PBXProject "Personal Finance Manager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A86A15E2C2D2CD20094AD4B;
+			packageReferences = (
+				0A94FC012C35B349006653B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0A94FC022C35BA61006653B7 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = 0A86A1682C2D2CD20094AD4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A86A1662C2D2CD20094AD4B /* Personal Finance Manager */,
+				0A86A17C2C2D2CD30094AD4B /* Personal Finance ManagerTests */,
+				0A86A1862C2D2CD30094AD4B /* Personal Finance ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A86A1652C2D2CD20094AD4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A86A1742C2D2CD20094AD4B /* Assets.xcassets in Resources */,
+				0A86A1772C2D2CD20094AD4B /* Base in Resources */,
+				0A86A19B2C2D30A60094AD4B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A86A17B2C2D2CD30094AD4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A86A1852C2D2CD30094AD4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A86A1632C2D2CD20094AD4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC440172C3495AC00E6CDB7 /* TransactionListSectionType.swift in Sources */,
+				0A7BD4952C3002FD00B38357 /* CommonBackGroundView.swift in Sources */,
+				0A7BD4A72C3025AD00B38357 /* SignUpView.swift in Sources */,
+				0A86A1B32C2D41A10094AD4B /* UIView+Extensions.swift in Sources */,
+				0AC4402E2C350F9A00E6CDB7 /* FilterOptionsView.swift in Sources */,
+				0AC440242C34AE1A00E6CDB7 /* PaddingLabel.swift in Sources */,
+				0A7BD4A02C30110500B38357 /* LoginView.swift in Sources */,
+				0A7BD4C82C30E74C00B38357 /* TransactionModel.swift in Sources */,
+				0A94FC242C3618C0006653B7 /* String+Extension.swift in Sources */,
+				0AC440322C351A5400E6CDB7 /* TransactionFilterModel.swift in Sources */,
+				0A7BD4B22C30C6EE00B38357 /* TransactionManagerHomeViewController.swift in Sources */,
+				0A7BD4C52C30D9E400B38357 /* FirestoreManager.swift in Sources */,
+				0A86A1B62C2D4D190094AD4B /* AuthManager.swift in Sources */,
+				0A04037F2C35A2A5001FE491 /* TransactionsCoreData.xcdatamodeld in Sources */,
+				0A7BD4B52C30C99900B38357 /* Coordinator.swift in Sources */,
+				0A7BD49A2C3006D500B38357 /* AppColors.swift in Sources */,
+				0A86A16F2C2D2CD20094AD4B /* LoginSignupViewController.swift in Sources */,
+				0AC440142C33DD8E00E6CDB7 /* TransactionsEntryViewProtocol.swift in Sources */,
+				0A86A1B22C2D41A10094AD4B /* UIColor+Extensions.swift in Sources */,
+				0A7BD4AA2C30B4ED00B38357 /* LoginViewProtocol.swift in Sources */,
+				0A7BD4BC2C30D20100B38357 /* TransactionListViewController.swift in Sources */,
+				0A7BD4AD2C30BD2200B38357 /* LoginSignupViewModel.swift in Sources */,
+				0A7BD4A42C30225700B38357 /* UITextField+Extensions.swift in Sources */,
+				0AC4401C2C34962000E6CDB7 /* TransactionListSection.swift in Sources */,
+				0A94FC222C360F66006653B7 /* NotificationService.swift in Sources */,
+				0A86A1B12C2D41A10094AD4B /* CGFloat+Extensions.swift in Sources */,
+				0AC4402C2C3505DE00E6CDB7 /* SegmentAndFilterViewProtocol.swift in Sources */,
+				0A94FC142C35BCE1006653B7 /* LocalCacheManager.swift in Sources */,
+				0A86A1AC2C2D41620094AD4B /* ResolutionManager.swift in Sources */,
+				0AC440342C353DC600E6CDB7 /* TransactionChartsView.swift in Sources */,
+				0A0403752C3598B2001FE491 /* AmountView.swift in Sources */,
+				0A04037C2C35A18A001FE491 /* CoreDataService.swift in Sources */,
+				0A94FC172C35E9A7006653B7 /* UIViewController+Extension.swift in Sources */,
+				0A7BD4A22C301FC000B38357 /* BlurEffectView.swift in Sources */,
+				0AC440282C34DA1D00E6CDB7 /* Date+Extensions.swift in Sources */,
+				0A94FC192C35EAED006653B7 /* AlertPresenter.swift in Sources */,
+				0A7BD4D12C311FA700B38357 /* TransactionsEntryView.swift in Sources */,
+				0A86A16B2C2D2CD20094AD4B /* AppDelegate.swift in Sources */,
+				0A7BD4CF2C310F0A00B38357 /* TransactionType.swift in Sources */,
+				0A94FC112C35BBD4006653B7 /* Transactions+CoreDataClass.swift in Sources */,
+				0A94FC122C35BBD4006653B7 /* Transactions+CoreDataProperties.swift in Sources */,
+				0A94FC1F2C3606C3006653B7 /* UIView+ActivityIndicator.swift in Sources */,
+				0A86A16D2C2D2CD20094AD4B /* SceneDelegate.swift in Sources */,
+				0AC4402A2C34F0B000E6CDB7 /* SegmentAndFilterView.swift in Sources */,
+				0AC440262C34C0BF00E6CDB7 /* TransactionCollectionViewCellProtocol.swift in Sources */,
+				0A7BD49E2C3008B900B38357 /* UIView+Gradient.swift in Sources */,
+				0AC4401F2C34971800E6CDB7 /* CollectionViewLayoutBuilder.swift in Sources */,
+				0AC440222C34988200E6CDB7 /* TransactionCollectionViewCell.swift in Sources */,
+				0A7BD4C22C30D82200B38357 /* TransactionManagerHomeViewModel.swift in Sources */,
+				0AC440302C35176E00E6CDB7 /* FilterOptionsViewProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A86A1792C2D2CD30094AD4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A86A1822C2D2CD30094AD4B /* Personal_Finance_ManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A86A1832C2D2CD30094AD4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A86A18C2C2D2CD30094AD4B /* Personal_Finance_ManagerUITests.swift in Sources */,
+				0A86A18E2C2D2CD30094AD4B /* Personal_Finance_ManagerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A86A17F2C2D2CD30094AD4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A86A1662C2D2CD20094AD4B /* Personal Finance Manager */;
+			targetProxy = 0A86A17E2C2D2CD30094AD4B /* PBXContainerItemProxy */;
+		};
+		0A86A1892C2D2CD30094AD4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A86A1662C2D2CD20094AD4B /* Personal Finance Manager */;
+			targetProxy = 0A86A1882C2D2CD30094AD4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A86A1752C2D2CD20094AD4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A86A1762C2D2CD20094AD4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A86A18F2C2D2CD30094AD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A86A1902C2D2CD30094AD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A86A1922C2D2CD30094AD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Personal Finance Manager/Personal Finance Manager.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR23ZCHW2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Personal Finance Manager/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Personal Finance Manager";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appnap.Personal-Finance-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A86A1932C2D2CD30094AD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Personal Finance Manager/Personal Finance Manager.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR23ZCHW2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Personal Finance Manager/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Personal Finance Manager";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appnap.Personal-Finance-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A86A1952C2D2CD30094AD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appnap.Personal-Finance-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personal Finance Manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Personal Finance Manager";
+			};
+			name = Debug;
+		};
+		0A86A1962C2D2CD30094AD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appnap.Personal-Finance-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personal Finance Manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Personal Finance Manager";
+			};
+			name = Release;
+		};
+		0A86A1982C2D2CD30094AD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appnap.Personal-Finance-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personal Finance Manager";
+			};
+			name = Debug;
+		};
+		0A86A1992C2D2CD30094AD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appnap.Personal-Finance-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personal Finance Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A86A1622C2D2CD20094AD4B /* Build configuration list for PBXProject "Personal Finance Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A86A18F2C2D2CD30094AD4B /* Debug */,
+				0A86A1902C2D2CD30094AD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A86A1912C2D2CD30094AD4B /* Build configuration list for PBXNativeTarget "Personal Finance Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A86A1922C2D2CD30094AD4B /* Debug */,
+				0A86A1932C2D2CD30094AD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A86A1942C2D2CD30094AD4B /* Build configuration list for PBXNativeTarget "Personal Finance ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A86A1952C2D2CD30094AD4B /* Debug */,
+				0A86A1962C2D2CD30094AD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A86A1972C2D2CD30094AD4B /* Build configuration list for PBXNativeTarget "Personal Finance ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A86A1982C2D2CD30094AD4B /* Debug */,
+				0A86A1992C2D2CD30094AD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A94FC012C35B349006653B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+		0A94FC022C35BA61006653B7 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChartsOrg/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A94FC032C35BA73006653B7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A94FC012C35B349006653B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0A94FC052C35BA7B006653B7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A94FC012C35B349006653B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0A94FC072C35BA80006653B7 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A94FC012C35B349006653B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0A94FC092C35BA93006653B7 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A94FC022C35BA61006653B7 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0A04037D2C35A2A5001FE491 /* TransactionsCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A04037E2C35A2A5001FE491 /* TransactionsCoreData.xcdatamodel */,
+			);
+			currentVersion = 0A04037E2C35A2A5001FE491 /* TransactionsCoreData.xcdatamodel */;
+			name = TransactionsCoreData.xcdatamodeld;
+			path = "/Users/mohaiminfahad/Desktop/untitled folder/AppNapTestProject/Personal Finance Manager/Personal Finance Manager/Resources/CoreData/CoreDataModel/TransactionsCoreData.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0A86A15F2C2D2CD20094AD4B /* Project object */;
+}
